@@ -69,12 +69,15 @@ header>p {
     width: 90%;
     margin: 20px auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .meme-form>input {
     width: 45%;
     height: 40px;
+    min-width: 300px;
+    margin-bottom: 10px;
 }
 
 .meme-form>button {
