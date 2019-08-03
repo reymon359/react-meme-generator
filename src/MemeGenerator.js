@@ -8,7 +8,9 @@ class MemeGenerator extends Component {
             bottomText: "",
             randomImg: "http://i.imgflip.com/1bij.jpg"
         }
+        this.handleChange = this.handleChange.bind(this)
     }
+    
     componentDidMount() {
         fetch("https://api.imgflip.com/get_memes")
             .then(response => response.json())
@@ -18,10 +20,33 @@ class MemeGenerator extends Component {
                 this.setState({ allMemeImgs: memes })
             })
     }
-    
+
+    handleChange(event) {
+        console.log("Working!")
+    }
+
     render() {
         return (
-            <h1>MEME GENERATOR SECTION</h1>
+            <div>
+                <form className="meme-form">
+                    <input 
+                        type="text"
+                        name="topText"
+                        placeholder="Top Text"
+                        value={this.state.topText}
+                        onChange={this.handleChange}
+                    /> 
+                    <input 
+                        type="text"
+                        name="bottomText"
+                        placeholder="Bottom Text"
+                        value={this.state.bottomText}
+                        onChange={this.handleChange}
+                    /> 
+                
+                    <button>Gen</button>
+                </form>
+            </div>
         )
     }
 }
