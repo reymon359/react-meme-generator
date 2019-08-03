@@ -116,3 +116,16 @@ header>p {
     font-size: 25px;
     text-align: cen
 }
+
+.footer {
+    margin-top: 5vh;
+    padding: 10px;
+    border-top: 2px solid lightgray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer a {
+    text-decoration: none;
+    margin: 0 10px;
+}
