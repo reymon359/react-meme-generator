@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-meme-generator/static/css/main.0ac9ad1c.chunk.css",
+    "main.js": "/react-meme-generator/static/js/main.b5676c04.chunk.js",
+    "main.js.map": "/react-meme-generator/static/js/main.b5676c04.chunk.js.map",
+    "runtime~main.js": "/react-meme-generator/static/js/runtime~main.b08da8a3.js",
+    "runtime~main.js.map": "/react-meme-generator/static/js/runtime~main.b08da8a3.js.map",
+    "static/js/2.e2adb5f9.chunk.js": "/react-meme-generator/static/js/2.e2adb5f9.chunk.js",
+    "static/js/2.e2adb5f9.chunk.js.map": "/react-meme-generator/static/js/2.e2adb5f9.chunk.js.map",
+    "index.html": "/react-meme-generator/index.html",
+    "precache-manifest.2a30892977ce1fb553d4135ae546df1b.js": "/react-meme-generator/precache-manifest.2a30892977ce1fb553d4135ae546df1b.js",
+    "service-worker.js": "/react-meme-generator/service-worker.js",
+    "static/css/main.0ac9ad1c.chunk.css.map": "/react-meme-generator/static/css/main.0ac9ad1c.chunk.css.map"
+  }
+}
